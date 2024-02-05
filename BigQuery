@@ -1,0 +1,6 @@
+SELECT
+  *
+FROM
+  `githubarchive.month.*`
+WHERE
+  actor.login = "stale[bot]"
